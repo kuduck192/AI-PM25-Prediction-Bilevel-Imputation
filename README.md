@@ -60,7 +60,7 @@ Our solution involves:
 
 | Name            | GitHub Handle                                    |
 | --------------- | ------------------------------------------------ |
-| Lê Minh Đức     | [`@kuduck192`](https://github.com/leminhduc)     |
+| Lê Minh Đức     | [`@kuduck192`](https://github.com/kuduck192)     |
 | Hà Tiến Đông    | [`@phapsucongu`](https://github.com/phapsucongu) |
 | Nguyễn Tuấn Anh | [`@shinyEazy`](https://github.com/shinyEazy)     |
 | Bùi Đức Anh     | [`@Tenebris2`](https://github.com/Tenebris2)     |
