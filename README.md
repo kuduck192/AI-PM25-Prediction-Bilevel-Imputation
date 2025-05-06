@@ -21,31 +21,46 @@ Our solution involves:
 - **Masked Autoencoder (MAE)**: Custom Transformer-based MAE model was developed to learn structured imputation from partially observed features.
 - **Bilevel Optimization**: To prevent overfitting via teacher-student feedback loops (artifact exploitation), we design a bilevel training strategy with implicit gradients and dropout-masked supervision.
 
+
 ---
 
-## 🔁 Project Structure
-```
+## 📁 Project Structure
+
+```plaintext
 .
-├── .gitignore
-├── input
-│   └── btlaionkk
+├── input/
+│   └── btlaionkk/
 │       ├── data_onkk.csv
 │       └── data_onkk_merged.csv
-├── LICENSE
-├── models
+├── models/
 │   ├── bilevel_impute.py
 │   └── mae.py
-├── notebooks
+├── notebooks/
 │   ├── nb-impute-mae-bilevel-ig.ipynb
 │   ├── nb-impute-mae.ipynb
 │   └── nb-lstm.ipynb
-├── pdfs
+├── pdfs/
 │   ├── bilevel_details.pdf
 │   └── report.pdf
+├── LICENSE
 └── README.md
-```
+````
+
 
 ---
 
-📄 Full report: [pdfs/report.pdf](pdfs/report.pdf)  
-🧠 Bilevel explanation: [pdfs/bilevel_details.pdf](pdfs/bilevel_details.pdf)
+## 📄 Documentation
+
+* 📘 [Full Report](pdfs/report.pdf) — Full analysis, experiments, and results
+* 🔬 [Bilevel Optimization Details](pdfs/bilevel_details.pdf) — Mathematical formulation and analysis
+
+---
+
+## 👥 Members
+
+| Name            | GitHub Handle                                    |
+| --------------- | ------------------------------------------------ |
+| Lê Minh Đức     | [`@kuduck192`](https://github.com/leminhduc)     |
+| Hà Tiến Đông    | [`@phapsucongu`](https://github.com/phapsucongu) |
+| Nguyễn Tuấn Anh | [`@shinyEazy`](https://github.com/shinyEazy)     |
+| Bùi Đức Anh     | [`@Tenebris2`](https://github.com/Tenebris2)     |
